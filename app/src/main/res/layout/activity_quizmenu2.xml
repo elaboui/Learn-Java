@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/cc1"
+    android:layout_height="match_parent"
+    tools:context="applicationtest.delle1.example.com.logreg.quizmenu2">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="es-tu prêt de commencer les quiz  Niveau 2 sur Learn Java ?"/>
+    <ImageView
+
+        android:backgroundTint="@color/ex7"
+        android:background="@drawable/qui"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="130dp"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="130dp"
+        android:text="Quiz 1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/ttt1"
+        android:scrollbars="vertical"
+        />
+    <ImageView
+
+        android:backgroundTint="@color/green"
+        android:background="@drawable/qui"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="130dp"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="130dp"
+        android:text="Quiz 2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/ttt1"
+
+        android:scrollbars="vertical"
+        />
+    <ImageView
+        android:backgroundTint="@color/ex1"
+        android:background="@drawable/qui"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="230dp"/>
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="230dp"
+        android:text="Quiz 3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/ttt1"
+
+        android:scrollbars="vertical"/>
+    <ImageView
+        android:backgroundTint="@color/ex"
+        android:background="@drawable/qui"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="230dp"/>
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/ttt1"
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="230dp"
+        android:text="Quiz 4" />
+    <ImageView
+        android:backgroundTint="@color/ex2"
+        android:background="@drawable/qui"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="330dp"/>
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/ttt1"
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="330dp"
+        android:text="Quiz 5" />
+    <ImageView
+        android:backgroundTint="@color/ex3"
+        android:background="@drawable/qui"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="330dp"/>
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/ttt1"
+        android:id="@+id/b6"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="330dp"
+        android:text="Quiz 6" />
+    <ImageView
+        android:backgroundTint="@color/ex5"
+        android:background="@drawable/qui"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="430dp"/>
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/ttt1"
+        android:id="@+id/b7"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="430dp"
+        android:text="Quiz 7" />
+    <ImageView
+        android:backgroundTint="@color/ex6"
+        android:background="@drawable/qui"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="430dp"/>
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/ttt1"
+        android:id="@+id/b8"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="430dp"
+        android:text="Quiz8" />
+
+</android.support.design.widget.CoordinatorLayout>

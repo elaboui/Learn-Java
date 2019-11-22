@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="applicationtest.delle1.example.com.logreg.btn2"
+    android:background="@color/cc1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="319dp"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:textColor="@color/white"
+        android:text="Commencer les Quiz"
+        android:background="@drawable/ttt"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/white"
+        android:text="Poser des Questins"
+        android:background="@drawable/ttt"/>
+   <TextView
+       android:layout_width="250dp"
+       android:layout_height="250dp"
+       android:textColor="@color/pink"
+       android:text="Bon courage"
+       android:textSize="30dp"
+       android:textStyle="italic"
+       android:layout_marginTop="300dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="30dp"
+       />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/tty"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="250dp"/>
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="65dp"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:autoLink="all"
+        android:text="      Learn java presenter la meilleur facon d'apprendre tous qui est concerne la programmation java d'une maniere bref est simple.\n
+  learn java permet a vous de posez soit les question soit de remarque n'esihister pas à poser"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

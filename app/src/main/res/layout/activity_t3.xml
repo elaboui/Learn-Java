@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="applicationtest.delle1.example.com.logreg.t3">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+
+        android:id="@+id/text3"
+        android:textColor="@color/deeppurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autoLink="all"
+        android:text=" Commentaire"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:autoLink="all"
+        android:text="L’inclusion de commentaires dans votre code a pour but d’expliquer ce qu’il fait.\n
+Java prend en charge les commentaires simples et multilignes.\n
+
+Tous les caractères figurant dans un commentaire sont ignorés par le compilateur.\n
+
+Un commentaire sur une seule ligne commence par deux barres obliques puis continue jusqu'à la fin de la ligne.
+
+par exemple:
+"
+        android:textSize="15sp" />
+    <TextView
+        android:textColor="@color/darkblue"
+        android:id="@+id/text5"
+        android:background="@color/ex"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:autoLink="all"
+        android:text="// c'est un commentaire d'une seule ligne\n
+                      x=5;// c'est un commentaire d'une seule ligne aprés le code "
+        android:textSize="13sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:autoLink="all"
+        android:text="Java prend également en charge les commentaires qui s'étendent sur plusieurs lignes.\n
+    Par exemple:"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+    <TextView
+        android:background="@color/ex"
+        android:textColor="@color/darkblue"
+        android:id="@+id/text9"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:autoLink="all"
+        android:text="/* c'est aussi un commentaire couvrant plusieurs lignes */ "
+        android:textSize="13sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/textt"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="@color/pink1"
+        android:text="(!) L'ajout de commentaires au fur et à mesure que vous écrivez du code est une bonne pratique,car ils fournissent des éclaircissements  lorsque  vous y référer qu'à d'autres personnes lire. "
+        android:textColor="@color/darkblue"
+        android:textSize="13sp"
+        app:fontFamily="sans-serif-medium"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bu1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:text="Retour"
+            />
+
+        <Button
+            android:id="@+id/bu2"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:text="Quiz" />
+
+
+        <Button
+            android:id="@+id/bu3"
+            android:textColor="@android:color/white"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:text="Suivant" />
+
+    </LinearLayout>
+
+</LinearLayout>

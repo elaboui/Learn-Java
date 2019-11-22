@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_btn5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/cc1"
+    tools:context="applicationtest.delle1.example.com.logreg.diplome">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:autoLink="all"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+
+        android:text="      Learn Java est féliciter une autre fois pour votre  effort  que tu fourni pour obtenir cette certificat qui ca donne une valeur bien au developpement Informatique danad la programmation Orientée objet(Java).\n
+        \n
+    Pour reçu votre  certificat  il faut  d'envoyer votre Information a boite Gmail de Learn Java et aprés 24 h tu  va rcecoivotre  le certificat   boite Gmail"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <Button
+        android:id="@+id/downloadbutton"
+        android:textColor="@color/white"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Telécharger Certificat"
+        android:background="@drawable/ttt1"
+        android:layout_marginTop="410dp"
+        android:gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="60dp" />
+    <Button
+
+        android:id="@+id/downloadbutton1"
+        android:textColor="@color/white"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+       android:text="Envoyer Ces Information"
+        android:background="@drawable/ttt1"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="60dp"/>
+
+</RelativeLayout>

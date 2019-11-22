@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="applicationtest.delle1.example.com.logreg.t33">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:autoLink="all"
+        android:text="L'instructions 'if .... else' imbriquées"
+        android:textSize="20sp"
+        android:textColor="@color/deeppurple"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Au lieu d'utiliser des instructions 'if .... else' imbriquées, vous pouvez utiliser l'instruction 'else if' pour vérifier plusieurs conditions."
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+                <TextView
+                    android:id="@+id/text8878787"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/darkblue"
+                    android:background="@color/ex"
+                    android:textSize="15sp"
+                    android:text="int points = 9;\n
+
+if (points >= 10)                   // si points plus grand\n
+{                                   // ou égal à 10\n
+	System.out.println (''réussi'');\n
+}\n
+if (! (points >= 10))               // si pas (points\n
+{                                   // plus grand ou égal à 10)\n
+	System.out.println (''raté'');\n
+}
+"
+                    app:fontFamily="sans-serif-black"
+                    android:scrollbars="vertical"/>
+    </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <TextView
+
+        android:id="@+id/textt"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/pink1"
+        android:text=" (!) vous pouvez inclure autant de déclarations 'sinon' que vous le souhaitez. "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-medium"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bu1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:text="Retour"
+            />
+
+        <Button
+            android:id="@+id/bu2"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:text="Quiz" />
+
+
+        <Button
+            android:id="@+id/bu3"
+            android:textColor="@android:color/white"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:text="Suivant" />
+
+    </LinearLayout>
+
+</LinearLayout>

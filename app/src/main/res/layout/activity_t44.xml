@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="applicationtest.delle1.example.com.logreg.t44"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:id="@+id/text88"
+        android:textColor="@color/deeppurple"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:scrollbars="vertical"
+        android:autoLink="all"
+        android:text="les opérateurs logiques"
+        android:textSize="22sp"
+        app:fontFamily="sans-serif-black" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+       >
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text785"
+            android:autoLink="all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:scrollbars="vertical"
+            android:text="les opérateurs logiques sont utilisés pour combiner plusieurs conditions.\n
+Supposons que vous vouliez que votre programme produise le message 'bienvenue!' uniquement lorsque la variable 'âge' est supérieure à 18 ans et la variable 'monnaie' est supérieure à 500.\n
+une façon d'accomplir cela consiste à utiliser des instructions imbriquées 'if'\n
+
+Par Exemple :
+"
+            android:textSize="15sp"
+            app:fontFamily="sans-serif-black" />
+        <TextView
+            android:id="@+id/text"
+            android:autoLink="all"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            android:background="@color/ex"
+            android:textColor="@color/darkblue"
+            android:text="
+if(age> 18 ans) {\n
+          if(argent> 500) {\n
+                     System.out.println ('' welcom! '');\n
+}\
+}\n
+"
+            android:textSize="15sp"
+            app:fontFamily="sans-serif-black" />
+        <TextView
+            android:id="@+id/text12"
+            android:autoLink="all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            android:text="Cependant, utiliser l'opérateur logique 'AND' est un meilleur moyen:
+"
+            android:textSize="15sp"
+            app:fontFamily="sans-serif-black" />
+        <TextView
+            android:id="@+id/text13"
+            android:autoLink="all"
+            android:background="@color/ex"
+            android:textColor="@color/darkblue"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:scrollbars="vertical"
+            android:text="
+si (age> 18 and money> 500) {\n
+    System.out.println ('' welcom! '');\n
+}
+"
+            android:textSize="15sp"
+            app:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/text14"
+            android:autoLink="all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+
+            android:scrollbars="vertical"
+            android:text="l'opérateur 'OU' (||) vérifie que l'une des conditions est vraie.
+La condition devient vraie si l'un des opérandes est évalué à vrai .\n
+
+par exemple:
+"
+            android:textSize="15sp"
+            app:fontFamily="sans-serif-black" />
+        <TextView
+            android:id="@+id/text15"
+            android:autoLink="all"
+            android:textColor="@color/darkblue"
+            android:background="@color/ex"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:scrollbars="vertical"
+            android:text="
+int age = 25;\n
+int argent = 100;\n
+si (age> 18 || argent> 500) {\n
+    System.out.println ('' welcom! '');\n
+}\n
+------------
+// sorties welcom! "
+            android:textSize="15sp"
+            app:fontFamily="sans-serif-black" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+        <TextView
+            android:id="@+id/textt"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:background="@color/pink1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text=" (!) Si les deux opérandes de l'opérateur AND sont vrais, alors la condition devient vraie. "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            app:fontFamily="sans-serif-medium" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bu1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:text="Retour"
+            />
+
+        <Button
+            android:id="@+id/bu2"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:text="Quiz" />
+
+
+        <Button
+            android:id="@+id/bu3"
+            android:textColor="@android:color/white"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:text="Suivant" />
+
+    </LinearLayout>
+
+</LinearLayout>

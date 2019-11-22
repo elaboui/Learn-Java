@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="applicationtest.delle1.example.com.logreg.t2"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/text3"
+        android:textColor="@color/deeppurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autoLink="all"
+        android:layout_marginTop="18dp"
+        android:text=" votre premier programme java"
+        android:textSize="22sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        <TextView
+            android:id="@+id/text"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:autoLink="all"
+            android:text=" Commençons par créer un programme simple qui affiche 'Hello world' sur l'écran.\n"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:background="@color/ex"
+            android:id="@+id/text5"
+            android:textColor="@color/darkblue"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:autoLink="all"
+            android:text="class MyClass{\n
+ public static void main(String[] args){\n
+     System.out.println(''Hello world'');\n
+    }\n
+ }"
+            android:textSize="13sp"
+            app:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"/>
+        <TextView
+            android:id="@+id/text122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:autoLink="all"
+            android:text="\n En Java, chaque ligne de code pouvant réellement être exécutée doit se trouver dans une classe.Dans notre exemple, nous avons nommé la classe MyClass. Vous en apprendrez plus sur les classes dans les prochains modules.En Java, chaque application a un point d’entrée, ou un point de départ, appelé méthode principale.En plus de main, les mots-clés public et static seront également expliqués plus tard.\n"
+            android:textSize="15sp"
+            app:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"/>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/textt"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:autoLink="all"
+        android:background="@color/pink1"
+        android:text=" (!) En résumé:\n
+        -Chaque programme en Java doit avoir une classe.\n
+        -Chaque programme Java démarre à partir de la méthode principale.\n "
+        android:textColor="@color/cc"
+        android:textSize="13sp"
+        app:fontFamily="sans-serif-medium" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bu1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:text="Retour"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bu2"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:text="Quiz"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/bu3"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:text="Suivant"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

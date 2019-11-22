@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="applicationtest.delle1.example.com.logreg.t6"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:id="@+id/text3"
+android:textStyle="bold"
+        android:textColor="@color/deeppurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autoLink="all"
+        android:text=" Variables "
+        android:textSize="22sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:autoLink="all"
+        android:text="Variable stocke les données à traiter. Une variable reçoit un nom (ou identifiant), tel que zone, âge, hauteur, etc. Le nom identifie de manière unique chaque variable, attribue une valeur à la variable et récupère la valeur stockée.
+     Type de variable, quelques exemples: int, double, string, ... (voir le glossaire)\n
+vous pouvez déclarer une variable d'un type et lui attribuer une valeur,Exemple sur la déclaration des variables:"        android:textSize="15sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+
+        <TextView
+            android:background="@color/ex"
+            android:id="@+id/text5454"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/darkblue"
+            android:autoLink="all"
+            android:text=" String name = 'el aboui';\n"
+android:textSize="15sp"
+            app:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"/>
+        <TextView
+            android:id="@+id/text8798"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:autoLink="all"
+            android:text="cela crée une variable appelée nom de type chaîne et lui attribue la valeur 'el aboui'.\n"
+            android:textSize="15sp"
+            app:fontFamily="sans-serif-black"
+            android:scrollbars="vertical"/>
+
+
+        <TextView
+        android:background="@color/ex"
+        android:id="@+id/text11"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+        android:autoLink="all"
+        android:text="class MyClass{\n
+ public static void main(String [] args){\n
+          String name= ''el aboui'';\n
+          int age=21;\n
+          double sore=17.5;\n
+          char filiere='smi';\n
+          }\n
+ }
+"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+    <TextView
+        android:id="@+id/text128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:autoLink="all"
+        android:text="cela crée une variable appelée nom de type chaîne et lui attribue la valeur 'el aboui'."
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-black"
+        android:scrollbars="vertical"/>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textt"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="@color/pink1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text=" (!)Il est important de noter qu'une variable est associée à un type et n'est capable que de stocker des valeurs de ce type particulier.  "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bu1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:text="Retour"
+            />
+
+        <Button
+            android:id="@+id/bu2"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:text="Quiz" />
+
+
+        <Button
+            android:id="@+id/bu3"
+            android:textColor="@android:color/white"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/btn"
+            android:text="Suivant" />
+
+    </LinearLayout>
+
+</LinearLayout>
